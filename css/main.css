@@ -1,0 +1,39 @@
+.button-width {
+	width: 200px;
+}
+
+.column-count-2 {
+	column-count: 2 !important;
+}
+
+.left, .right {
+	display: inline-block;
+}
+
+.frame {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.th-sticky_wrap {
+	height: 500px;
+	overflow-y: scroll;
+}
+
+
+/* 連番用CSS */
+table {
+	/* 'rowCount' という名前のカウンターを設定し、 0 で初期化する。 */
+	counter-reset: rowCount;
+}
+
+table > tbody > tr {
+	/* rowCount カウンターの値に1を加算 */
+	counter-increment: rowCount;
+}
+
+table > tbody > tr > td:first-child::before {
+	/* rowCount カウンターの値を表示 */
+	content: counter(rowCount);
+}
