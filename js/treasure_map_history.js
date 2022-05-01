@@ -272,6 +272,13 @@ function getTreasureMapHistory() {
 		
 		if (data) {
 			json = JSON.parse(data);
+
+			// 日付でソートする
+			json.sort(function(a,b){
+				if(a.date > b.date) return 1 
+				if(a.date< b.date) return -1 
+				return 0
+			});
 		}
 	}
 
@@ -449,6 +456,13 @@ function getTreasureMapTotal() {
 		
 		if (data) {
 			json = JSON.parse(data);
+
+			// 日付でソートする
+			json.sort(function(a,b){
+				if(a.date > b.date) return 1 
+				if(a.date< b.date) return -1 
+				return 0
+			});
 		}
 	}
 
