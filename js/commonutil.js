@@ -45,3 +45,31 @@ function copy2clipboard(text) {
 	document.execCommand('copy');
 	textarea.parentNode.removeChild(textarea);
 }
+
+/**
+ * 指定されたidに対してDisabled属性を設定する
+ * @param {string} id - idを指定する。
+ */
+function setDisabledButton(id){
+	//前方一致で引数idから始まるidを取得する
+	let setbuttonArray = $('[id^="' + id + '"]');
+
+	//取得したidを持つタグにdisabledを設定する
+	for(i=0; i< setbuttonArray.length; i++){
+		$('#' + setbuttonArray[i].id).prop("disabled", true);
+	}
+}
+
+/**
+ * 指定されたidに対してDisabled属性を除去する
+ * @param {string} id - idを指定する。
+ */
+function unDisabledButton(id){
+	//前方一致で引数idから始まるidを取得する
+	let unbuttonArray = $('[id^="' + id + '"]');
+
+	//取得したidを持つタグからdisabledを除去する
+	for(i=0; i< unbuttonArray.length; i++){
+		$('#' + unbuttonArray[i].id).prop("disabled", false);
+	}
+}

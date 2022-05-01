@@ -40,7 +40,6 @@ class TreasureMapHistory {
 // 修正前の地図履歴を保存する
 var oldTreasureMapHistory;
 
-
 /**
  * ボタン押下時アクション
  */
@@ -57,19 +56,7 @@ jQuery(function ($) {
 			Object.keys(history).forEach(function (key) {
 				// 要素に追加
 				$('#treasure-map-history-table').append(
-					createTreasureMapHistoryHtml(history[key].date, history[key].time, history[key].buff, history[key].amount));
-			});
-		}
-
-		// 合計タブ
-		// ローカルストレージから地図合計テーブルを取得する。
-		const json = getTreasureMapTotal();
-			
-		if (json) {
-			Object.keys(json).forEach(function (key) {
-				// 要素に追加
-				$('#treasure-map-total-table').append(
-					createTreasureMapTotalHtml(json[key].date, json[key].exp, json[key].repop, json[key].drop, json[key].special, json[key].gold, json[key].weak, json[key].count, json[key].total_amount));
+					createTreasureMapHistoryHtml(history[key].date, history[key].time, history[key].buff, history[key].amount, key));
 			});
 		}
 	});
@@ -89,7 +76,7 @@ jQuery(function ($) {
 			Object.keys(json).forEach(function (key) {
 				// 要素に追加
 				$('#treasure-map-total-table').append(
-					createTreasureMapTotalHtml(json[key].date, json[key].exp, json[key].repop, json[key].drop, json[key].special, json[key].gold, json[key].weak, json[key].count, json[key].total_amount));
+					createTreasureMapTotalHtml(json[key].date, json[key].exp, json[key].repop, json[key].drop, json[key].special, json[key].gold, json[key].weak, json[key].count, json[key].total_amount, key));
 			});
 		}
 	});
@@ -117,7 +104,7 @@ jQuery(function ($) {
 	/**
 	 * 修正ボタン押下時のアクション
 	 */
-	$(document).on('click', '#treasure-map-history-table tbody tr td #btn-change', function () {
+	$(document).on('click', '#treasure-map-history-table tbody tr td [id^="btn-change"]', function () {
 		// 選択した行の値を取得する
 		const date = $(this).closest('tr').find('#date').text();
 		const time = $(this).closest('tr').find('#time').text();
@@ -131,11 +118,15 @@ jQuery(function ($) {
 		$(this).closest('tr').find('#amount').html('<input type="number" size="5" maxlength="3" value="' + amount + '" class="form-control form-control-sm">');
 
 		// 修正ボタンを確定ボタンに変更する
-		$(this).closest('tr').find('#btn-change').text('確定');
-		$(this).closest('tr').find('#btn-change').attr('id', 'btn-complete');
+		$(this).closest('tr').find('#' + $(this).attr('id')).text('確定');
+		$(this).closest('tr').find('#' + $(this).attr('id')).attr('id', 'btn-complete');
 
 		// 地図履歴クラスに修正前の情報を設定する
 		oldTreasureMapHistory = new TreasureMapHistory(date, buff, amount);
+
+		// 修正、削除ボタンを非活性にする
+		setDisabledButton('btn-change');
+		setDisabledButton('btn-delete');
 	});
 
 	/**
@@ -154,22 +145,22 @@ jQuery(function ($) {
 		$(this).closest('tr').find('#buff').html(buff);
 		$(this).closest('tr').find('#amount').html(amount);
 
-		// 修正ボタンを確定ボタンに変更する
-		$(this).closest('tr').find('#btn-complete').text('修正');
-		$(this).closest('tr').find('#btn-complete').attr('id', 'btn-change');
-
 		// 行番号を取得する
-		const rownum = $(this).closest('tr').index();
+		const index = $(this).closest('tr').index();
+
+		// 修正ボタンを確定ボタンに変更する
+		$(this).closest('tr').find('#' + $(this).attr('id')).text('修正');
+		$(this).closest('tr').find('#' + $(this).attr('id')).attr('id', 'btn-change-' + index);
 
 		// ローカルストレージから地図履歴テーブルを取得する。
 		let json = getTreasureMapHistory();
 			
 		if (json) {
 			// JSONの中身を書き換える。
-			json[rownum].date = date
-			json[rownum].time = time
-			json[rownum].buff = buff
-			json[rownum].amount = parseInt(amount, 10)
+			json[index].date = date
+			json[index].time = time
+			json[index].buff = buff
+			json[index].amount = parseInt(amount, 10)
 
 			// ローカルストレージに保存し直す。
 			localStorage.setItem('treasure_map_history_table', JSON.stringify(json));
@@ -179,12 +170,15 @@ jQuery(function ($) {
 		deleteTreasureMapTotal({ date: oldTreasureMapHistory.getDate, time: oldTreasureMapHistory.getTime, buff: oldTreasureMapHistory.getBuff, amount : oldTreasureMapHistory.getAmount });
 		insertTreasureMapTotal({ date: date, time: time, buff: buff, amount : amount });
 
+		unDisabledButton('btn-change');
+		unDisabledButton('btn-delete');
+
 	});
 
 	/**
 	 * 削除ボタン押下時のアクション
 	 */
-	$(document).on('click', '#treasure-map-history-table tbody tr td #btn-delete', function () {
+	$(document).on('click', '#treasure-map-history-table tbody tr td [id^="btn-delete"]', function () {
 		// 選択した行の値を取得する
 		const date = $(this).closest('tr').find('#date').text();
 		const time = $(this).closest('tr').find('#time').text();
@@ -192,7 +186,7 @@ jQuery(function ($) {
 		const amount = $(this).closest('tr').find('#amount').text();
 
 		// 行番号を取得する
-		const rownum = $(this).closest('tr').index();
+		const index = $(this).closest('tr').index();
 
 		// 行削除
 		$(this).closest('tr').remove();
@@ -202,7 +196,7 @@ jQuery(function ($) {
 
 		if (json) {
 			// JSONから指定したINDEXを削除する。
-			json.splice(rownum, 1);
+			json.splice(index, 1);
 			// ローカルストレージに保存し直す。
 			localStorage.setItem('treasure_map_history_table', JSON.stringify(json));
 		}
@@ -225,9 +219,23 @@ jQuery(function ($) {
 	});
 
 	/**
+	 * 再集計クリアボタン押下時のアクション
+	 */
+	$(document).on('click', '#btn-total-aggregate', function () {
+		let result = window.confirm('現在、表示されている履歴を元に再計算します。');
+		if (result) {
+			// 再集計
+			aggregateTreasureMapTotal();
+			// reloadメソッドによりページをリロード
+			window.location.reload();
+		}
+	});
+
+
+	/**
 	 * コピーボタン押下時のアクション
 	 */
-	$(document).on('click', '#treasure-map-total-table tbody tr td #btn-total-row-copy', function () {
+	$(document).on('click', '#treasure-map-total-table tbody tr td [id^="btn-total-row-copy"]', function () {
 		// 選択した行の値を取得する
 		const date = $(this).closest('tr').find('#date').text();
 		const exp = $(this).closest('tr').find('#exp').text();
@@ -290,12 +298,14 @@ function getTreasureMapHistory() {
  * @param {string} buff - バフ名を指定する。
  */
 function addTreasureMapHistory(buff) {
-	//const num = $('#treasure-map-history-table tbody').children().length + 1;
 	const date = getDate();
 	const time = getTime();
 
+	// 行番号を取得する
+	const index = $('#treasure-map-history-table tbody').children().length;
+
 	// 要素に追加
-	$('#treasure-map-history-table').append(createTreasureMapHistoryHtml(date, time, buff, 0));
+	$('#treasure-map-history-table').append(createTreasureMapHistoryHtml(date, time, buff, 0, index));
 
 	// ローカルストレージから地図履歴を取得する
 	let json = getTreasureMapHistory();
@@ -318,9 +328,10 @@ function addTreasureMapHistory(buff) {
  * @param {string} time - 時間を指定する。
  * @param {string} buff - バフ名を指定する。
  * @param {string} amount - 金額を指定する。
+ * @param {string} index - 番号を指定する。
  * @return {string} - html
  */
-function createTreasureMapHistoryHtml(date, time, buff, amount) {
+function createTreasureMapHistoryHtml(date, time, buff, amount, index) {
 	let str = '';
 	str += '<tr>'
 	str += '<td id="no"></td>' // Noはcssでカウントしている
@@ -328,8 +339,8 @@ function createTreasureMapHistoryHtml(date, time, buff, amount) {
 	str += '<td id="time">' + time + '</td>'
 	str += '<td id="buff">' + buff + '</td>'
 	str += '<td id="amount">' + amount + '</td>'
-	str += '<td id="change">' + '<button class="btn btn-info btn-sm form-control form-control-sm" id="btn-change" type="button">修正</button>' + '</td>'
-	str += '<td id="delete">' + '<button class="btn btn-info btn-sm form-control form-control-sm" id="btn-delete" type="button">削除</button>' + '</td>'
+	str += '<td id="change">' + '<button class="btn btn-info btn-sm form-control form-control-sm" id="btn-change-' + index + '" type="button">修正</button>' + '</td>'
+	str += '<td id="delete">' + '<button class="btn btn-info btn-sm form-control form-control-sm" id="btn-delete-' + index +'" type="button">削除</button>' + '</td>'
 	str += '</tr>'
 	return str;
 }
@@ -345,9 +356,10 @@ function createTreasureMapHistoryHtml(date, time, buff, amount) {
  * @param {string} weak - マナ弱を指定する。
  * @param {string} count - 合計を指定する。
  * @param {string} total_amount - 売上を指定する。
+ * @param {string} index - 番号を指定する。
  * @return {string} - html
  */
-function createTreasureMapTotalHtml(date, exp, repop, drop, special, gold, weak, count, total_amount) {
+function createTreasureMapTotalHtml(date, exp, repop, drop, special, gold, weak, count, total_amount, index) {
 	let str = '';
 	str += '<tr>'
 	str += '<td id="no"></td>' // Noはcssでカウントしている
@@ -360,7 +372,7 @@ function createTreasureMapTotalHtml(date, exp, repop, drop, special, gold, weak,
 	str += '<td id="weak">' + weak + '</td>'
 	str += '<td id="count">' + count + '</td>'
 	str += '<td id="total_amount">' + total_amount + '</td>'
-	str += '<td id="change">' + '<button class="btn btn-info btn-sm form-control form-control-sm" id="btn-total-row-copy" type="button">コピー</button>' + '</td>'
+	str += '<td id="change">' + '<button class="btn btn-info btn-sm form-control form-control-sm" id="btn-total-row-copy-' + index + '" type="button">コピー</button>' + '</td>'
 	str += '</tr>'
 	return str;
 }
@@ -435,7 +447,7 @@ function insertTreasureMapTotal(data) {
 			gold: wk_gold,
 			weak: wk_weak,
 			count: 1,
-			total_amount: parseInt(data.amount, 10);
+			total_amount: parseInt(data.amount, 10)
 		});
 	}
 
@@ -530,7 +542,7 @@ function deleteTreasureMapTotal(data) {
 
 
 /**
- * 未使用
+ * 地図履歴テーブルを元に集計する
  * treasure_map_total = [{ date: "yyyy/mm/dd", exp: 0, repop: 0, drop: 0, special: 0, gold: 0, weak: 0, count: 0, total_amount: 0 }]
  */
 function aggregateTreasureMapTotal() {
@@ -599,10 +611,12 @@ function aggregateTreasureMapTotal() {
 			}
 			return result;
 		}, []);
-	
-		console.log(json);
-		console.log(treasure_map_total);
 
+		// console.log(json);
+		// console.log(treasure_map_total);
+
+		// ローカルストレージに保存する。
+		localStorage.setItem('treasure_map_total_table', JSON.stringify(treasure_map_total));
 	}
 
 }
