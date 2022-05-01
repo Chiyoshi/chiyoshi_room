@@ -435,7 +435,7 @@ function insertTreasureMapTotal(data) {
 			gold: wk_gold,
 			weak: wk_weak,
 			count: 1,
-			total_amount: data.amount
+			total_amount: parseInt(data.amount, 10);
 		});
 	}
 
@@ -583,7 +583,7 @@ function aggregateTreasureMapTotal() {
 				work.gold += wk_gold;
 				work.weak += wk_weak;
 				work.count ++;
-				work.total_amount += current.amount;
+				work.total_amount += parseInt(current.amount, 10);
 			} else {
 				result.push({
 					date: current.date,
@@ -594,7 +594,7 @@ function aggregateTreasureMapTotal() {
 					gold: wk_gold,
 					weak: wk_weak,
 					count: 1,
-					total_amount: current.amount
+					total_amount: parseInt(current.amount, 10)
 				});
 			}
 			return result;
