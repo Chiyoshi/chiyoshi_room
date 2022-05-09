@@ -1,10 +1,20 @@
 /**
+ * ゼロ埋め
+ * @param {string} value - 値を指定する。
+ * @param {string} length - ゼロ埋めする桁数を指定する。
+ * @return {string} - ゼロ埋めした値
+ */
+function zeroPadding(value, length) {
+	return (Array(length).join('0') + value).slice(-length); 
+}
+
+/**
  * 現在日付取得
  * @return {string} - [yyyy/mm/dd]という形式で戻る。
  */
 function getDate() {
 	var date = new Date();
-	return date.getFullYear() + "/" + (date.getMonth() + 1) + "/" + date.getDate();
+	return date.getFullYear() + "/" + zeroPadding((date.getMonth() + 1), 2) + "/" + zeroPadding(date.getDate(), 2);
 }
 
 
@@ -14,11 +24,11 @@ function getDate() {
  */
 function getTime() {
 	var date = new Date();
-	return date.getHours() + ":" + date.getMinutes();
+	return zeroPadding(date.getHours(), 2) + ":" + zeroPadding(date.getMinutes(), 2);
 }
 
 /**
- * 空チェック
+ * JOSNオブジェクト空チェック
  * @param {string} obj - JSONオブジェクトを指定する。
  * @return {string} - [obj]という形式で戻る。
  */
@@ -47,10 +57,10 @@ function copy2clipboard(text) {
 }
 
 /**
- * 指定されたidに対してDisabled属性を設定する
+ * 指定されたidに対してdisabled属性を設定する
  * @param {string} id - idを指定する。
  */
-function setDisabledButton(id){
+function setDisabled(id){
 	//前方一致で引数idから始まるidを取得する
 	let setbuttonArray = $('[id^="' + id + '"]');
 
@@ -61,10 +71,10 @@ function setDisabledButton(id){
 }
 
 /**
- * 指定されたidに対してDisabled属性を除去する
+ * 指定されたidに対してdisabled属性を除去する
  * @param {string} id - idを指定する。
  */
-function unDisabledButton(id){
+function unDisabled(id){
 	//前方一致で引数idから始まるidを取得する
 	let unbuttonArray = $('[id^="' + id + '"]');
 
