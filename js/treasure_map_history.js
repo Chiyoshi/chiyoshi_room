@@ -638,7 +638,7 @@ function updateLocalStorage() {
 	if (!isEmpty(treasureMapHistory)) {
 		Object.keys(treasureMapHistory).forEach(function (key) {
 			treasureMapHistory[key].date = treasureMapHistory[key].date.split('/')[0] + '/' + zeroPadding(treasureMapHistory[key].date.split('/')[1], 2) + '/' + zeroPadding(treasureMapHistory[key].date.split('/')[2], 2);
-			treasureMapHistory[key].time = treasureMapHistory[key].time.split(':')[0] + ':' + zeroPadding(treasureMapHistory[key].time.split(':')[1], 2);
+			treasureMapHistory[key].time = zeroPadding(treasureMapHistory[key].time.split(':')[0], 2) + ':' + zeroPadding(treasureMapHistory[key].time.split(':')[1], 2);
 			treasureMapHistory[key].buff = treasureMapHistory[key].buff;
 			treasureMapHistory[key].amount = treasureMapHistory[key].amount;
 		});
