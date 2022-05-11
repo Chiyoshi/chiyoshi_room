@@ -1,3 +1,12 @@
+.bg-hex {
+	background-color: #772953;
+}
+
+.thead-hex {
+	color: #fff;
+	background-color: #772953;
+}
+
 .button-width {
 	width: 200px;
 }
@@ -14,7 +23,6 @@
 	display: flex;
 	justify-content: space-between;
 }
-
 
 .th-sticky_wrap {
 	height: 500px;
@@ -37,3 +45,4 @@ table > tbody > tr > td:first-child::before {
 	/* rowCount カウンターの値を表示 */
 	content: counter(rowCount);
 }
+
