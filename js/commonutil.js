@@ -30,10 +30,13 @@ function getTime() {
 /**
  * JOSNオブジェクト空チェック
  * @param {string} obj - JSONオブジェクトを指定する。
- * @return {string} - [obj]という形式で戻る。
+ * @return {string} - true:空、false:空以外という形式で戻る。
  */
 function isEmpty(obj){
-  return !Object.keys(obj).length;
+	if (!obj) {
+		return true;
+	}
+	return !Object.keys(obj).length;
 }
 
 /**
