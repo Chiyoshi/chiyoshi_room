@@ -360,8 +360,10 @@ function createPartyManagementBuffPriceHtml(data) {
 				if (data.num > i) {
 					btnColor = '';
 				} else {
-					btnColor = 'btn-secondary';
-					disabled = 'disabled';
+					// 列の削除ボタン実装まで暫定処置
+					btnColor = '';
+					//btnColor = 'btn-secondary';
+					//disabled = 'disabled';
 				}
 				break;
 		}
@@ -420,6 +422,7 @@ function changeCalculateButtonText(index, num) {
 	// ボタン名を変更する
 	for (let i = num; i <= 8; i++) {
 		$('#' + 'btn-calculate-' + index + '-' + (parseInt(i) + 1)).text('済');
+		$('#' + 'btn-calculate-' + index + '-' + (parseInt(i) + 1)).removeClass('btn-secondary');
 	}
 }
 
@@ -434,7 +437,7 @@ function setDisabledCalculateButton(index, num) {
 
 	// 非活性
 	for (let i = num; i <= 8; i++) {
-		setDisabled('btn-calculate-' + index + '-' + (parseInt(i) + 1));
+		//setDisabled('btn-calculate-' + index + '-' + (parseInt(i) + 1));
 	}
 }
 
