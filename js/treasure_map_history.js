@@ -284,7 +284,7 @@ function getTreasureMapHistory() {
 		// ローカルストレージから値を取得する
 		const data = localStorage.getItem('treasure_map_history_table');
 		
-		if (data) {
+		if (!isEmpty(data)) {
 			json = JSON.parse(data);
 
 			// 日付、時間でソートする
@@ -474,7 +474,7 @@ function getTreasureMapTotal() {
 		// ローカルストレージから値を取得する
 		const data = localStorage.getItem('treasure_map_total_table');
 		
-		if (data) {
+		if (!isEmpty(data)) {
 			json = JSON.parse(data);
 
 			// 日付でソートする

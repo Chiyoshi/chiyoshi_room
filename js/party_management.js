@@ -224,7 +224,7 @@ function getPartyManagementBuffPriceShortNameList() {
 		// ローカルストレージから値を取得する
 		const data = localStorage.getItem('party_management_buff_price_short_name_list');
 		
-		if (data) {
+		if (!isEmpty(data)) {
 			json = JSON.parse(data);
 		}
 	}
@@ -244,7 +244,7 @@ function getPartyManagementBuffPrice() {
 		// ローカルストレージから値を取得する
 		const data = localStorage.getItem('party_management_buff_price_table');
 		
-		if (data) {
+		if (!isEmpty(data)) {
 			json = JSON.parse(data);
 		}
 	}
