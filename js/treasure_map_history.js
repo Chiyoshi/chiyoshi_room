@@ -164,7 +164,7 @@ jQuery(function ($) {
 			json[index].date = date
 			json[index].time = time
 			json[index].buff = buff
-			json[index].amount = parseInt(amount, 10)
+			json[index].amount = parseInt(amount)
 
 			// ローカルストレージに保存し直す。
 			localStorage.setItem('treasure_map_history_table', JSON.stringify(json));
@@ -225,7 +225,7 @@ jQuery(function ($) {
 	});
 
 	/**
-	 * 再集計クリアボタン押下時のアクション
+	 * 再集計ボタン押下時のアクション
 	 */
 	$(document).on('click', '#btn-total-aggregate', function () {
 		let result = window.confirm('現在、表示されている履歴を元に再計算します。');
@@ -437,7 +437,7 @@ function insertTreasureMapTotal(data) {
 				treasuremMapTotal[key].gold += wk_gold;
 				treasuremMapTotal[key].weak += wk_weak;
 				treasuremMapTotal[key].count ++;
-				treasuremMapTotal[key].total_amount += parseInt(data.amount, 10);
+				treasuremMapTotal[key].total_amount += parseInt(data.amount);
 
 				isExistData = true;
 			}
@@ -455,7 +455,7 @@ function insertTreasureMapTotal(data) {
 			gold: wk_gold,
 			weak: wk_weak,
 			count: 1,
-			total_amount: parseInt(data.amount, 10)
+			total_amount: parseInt(data.amount)
 		});
 	}
 
@@ -537,7 +537,7 @@ function deleteTreasureMapTotal(data) {
 				treasureMapTotal[key].gold -= wk_gold;
 				treasureMapTotal[key].weak -= wk_weak;
 				treasureMapTotal[key].count --;
-				treasureMapTotal[key].total_amount -= parseInt(data.amount, 10);
+				treasureMapTotal[key].total_amount -= parseInt(data.amount);
 			}
 		});
 	}
@@ -603,7 +603,7 @@ function aggregateTreasureMapTotal() {
 				work.gold += wk_gold;
 				work.weak += wk_weak;
 				work.count ++;
-				work.total_amount += parseInt(current.amount, 10);
+				work.total_amount += parseInt(current.amount);
 			} else {
 				result.push({
 					date: current.date,
@@ -614,7 +614,7 @@ function aggregateTreasureMapTotal() {
 					gold: wk_gold,
 					weak: wk_weak,
 					count: 1,
-					total_amount: parseInt(current.amount, 10)
+					total_amount: parseInt(current.amount)
 				});
 			}
 			return result;

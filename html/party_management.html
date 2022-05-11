@@ -81,92 +81,87 @@
 	<div class="tab-content">
 		<!-- ###### buff-price ###### -->
 		<div class="tab-pane fade active show" id="item-buff-price" role="tabpanel" aria-labelledby="item-buff-price-tab">
-			<div class="">
-				<div class="card my-3">
-					<div class="card-header">
-						<div class="frame">
-							<span class="left">管理<span class="text-danger"> (準備中)</span></span>
-							<div class="right">
-								<button class="btn btn-info btn-sm" type="submit" id="btn-buff-price-add">行追加</button>
-								<button class="btn btn-info btn-sm" type="submit" id="btn-buff-price-copy">コピー</button>
-								<button class="btn btn-info btn-sm" type="submit" id="btn-buff-price-clear">クリア</button>
-							</div>
+			<div class="card my-3">
+				<div class="card-header">
+					<div class="frame">
+						<span class="left">管理</span></span>
+						<div class="right">
+							<button class="btn btn-info btn-sm" type="submit" id="btn-buff-price-add">行追加</button>
+							<button class="btn btn-info btn-sm" type="submit" id="btn-buff-price-copy">コピー</button>
+							<button class="btn btn-info btn-sm" type="submit" id="btn-buff-price-clear">クリア</button>
 						</div>
 					</div>
-					<div class="card-body">
-						<table class="table table-hover table-sm" id="party-management-buff-price-table">
-							<thead>
-								<tr class="table-dark">
-									<th class="text-center" style="width: 4%" rowspan="2">No</th>
-									<th class="text-center" style="width: 8%" rowspan="2">売買</th>
-									<th class="text-center" style="width: 8%" rowspan="2">金額</th>
-									<th class="text-center" style="width: 8%" rowspan="2">人数</th>
-									<th class="text-center" style="width: 8%" rowspan="2">1人あたり</th>
-									<th class="text-center" style="width: 8%">0</th>
-									<th class="text-center" style="width: 8%">0</th>
-									<th class="text-center" style="width: 8%">0</th>
-									<th class="text-center" style="width: 8%">0</th>
-									<th class="text-center" style="width: 8%">0</th>
-									<th class="text-center" style="width: 8%">0</th>
-									<th class="text-center" style="width: 8%">0</th>
-									<th class="text-center" style="width: 8%">0</th>
-								</tr>
-								<tr >
-									<th><input type="text" maxlength="4" class="form-control form-control-sm" id="input-short-name-1" placeholder="略称"></th>
-									<th><input type="text" maxlength="4" class="form-control form-control-sm" id="input-short-name-2" placeholder="略称"></th>
-									<th><input type="text" maxlength="4" class="form-control form-control-sm" id="input-short-name-3" placeholder="略称"></th>
-									<th><input type="text" maxlength="4" class="form-control form-control-sm" id="input-short-name-4" placeholder="略称"></th>
-									<th><input type="text" maxlength="4" class="form-control form-control-sm" id="input-short-name-5" placeholder="略称"></th>
-									<th><input type="text" maxlength="4" class="form-control form-control-sm" id="input-short-name-6" placeholder="略称"></th>
-									<th><input type="text" maxlength="4" class="form-control form-control-sm" id="input-short-name-7" placeholder="略称"></th>
-									<th><input type="text" maxlength="4" class="form-control form-control-sm" id="input-short-name-8" placeholder="略称"></th>
-								</tr>
-							</thead>
-							<tbody>
-							<!-- -------------------------------------- -->
-							<!-- ローカルストレージから取得して表示する -->
-							<!-- -------------------------------------- -->
-							</tbody>
-						</table>
-					</div>
 				</div>
-
+				<div class="card-body">
+					<table class="table table-hover table-sm" id="party-management-buff-price-table">
+						<thead>
+							<tr class="table-dark">
+								<th class="text-center" style="width: 4%" rowspan="2">No</th>
+								<th class="text-center" style="width: 8%" rowspan="2">売買</th>
+								<th class="text-center" style="width: 8%" rowspan="2">金額</th>
+								<th class="text-center" style="width: 8%" rowspan="2">人数</th>
+								<th class="text-center" style="width: 8%" rowspan="2">1人あたり</th>
+								<th class="text-center" style="width: 8%" id="calc-total-amount-1">0</th>
+								<th class="text-center" style="width: 8%" id="calc-total-amount-2">0</th>
+								<th class="text-center" style="width: 8%" id="calc-total-amount-3">0</th>
+								<th class="text-center" style="width: 8%" id="calc-total-amount-4">0</th>
+								<th class="text-center" style="width: 8%" id="calc-total-amount-5">0</th>
+								<th class="text-center" style="width: 8%" id="calc-total-amount-6">0</th>
+								<th class="text-center" style="width: 8%" id="calc-total-amount-7">0</th>
+								<th class="text-center" style="width: 8%" id="calc-total-amount-8">0</th>
+							</tr>
+							<tr >
+								<th><input type="text" maxlength="5" class="form-control form-control-sm" id="input-short-name-1" placeholder="略称"></th>
+								<th><input type="text" maxlength="5" class="form-control form-control-sm" id="input-short-name-2" placeholder="略称"></th>
+								<th><input type="text" maxlength="5" class="form-control form-control-sm" id="input-short-name-3" placeholder="略称"></th>
+								<th><input type="text" maxlength="5" class="form-control form-control-sm" id="input-short-name-4" placeholder="略称"></th>
+								<th><input type="text" maxlength="5" class="form-control form-control-sm" id="input-short-name-5" placeholder="略称"></th>
+								<th><input type="text" maxlength="5" class="form-control form-control-sm" id="input-short-name-6" placeholder="略称"></th>
+								<th><input type="text" maxlength="5" class="form-control form-control-sm" id="input-short-name-7" placeholder="略称"></th>
+								<th><input type="text" maxlength="5" class="form-control form-control-sm" id="input-short-name-8" placeholder="略称"></th>
+							</tr>
+						</thead>
+						<tbody>
+						<!-- -------------------------------------- -->
+						<!-- ローカルストレージから取得して表示する -->
+						<!-- -------------------------------------- -->
+						</tbody>
+					</table>
+				</div>
 			</div>
 		</div>
 
 		<!-- ###### reserve ###### -->
 		<div class="tab-pane fade" id="item-reserve" role="tabpanel" aria-labelledby="item-reserve-tab">
-			<div class="">
-				<div class="card my-3">
-					<div class="card-header">
-						<div class="frame">
-							<span class="left">管理<span class="text-danger"> (準備中)</span></span>
-							<div class="right">
-								<button class="btn btn-info btn-sm" type="submit" id="btn-reserve-copy">コピー</button>
-								<button class="btn btn-info btn-sm" type="submit" id="btn-reserve-add">行追加</button>
-								<button class="btn btn-info btn-sm" type="submit" id="btn-reserve-clear">クリア</button>
-							</div>
+			<div class="card my-3">
+				<div class="card-header">
+					<div class="frame">
+						<span class="left">管理<span class="text-danger"> (準備中)</span></span>
+						<div class="right">
+							<button class="btn btn-info btn-sm" type="submit" id="btn-reserve-add">行追加</button>
+							<button class="btn btn-info btn-sm" type="submit" id="btn-reserve-copy">コピー</button>
+							<button class="btn btn-info btn-sm" type="submit" id="btn-reserve-clear">クリア</button>
 						</div>
 					</div>
-					<div class="card-body btn-group btn-group-justified">
-						<table class="table table-hover table-sm" id="party-management-reserve-table">
-							<thead>
-								<tr class="table-dark">
-									<th class="text-center" style="width: 5%">No</th>
-									<th class="text-center" style="width: 30%">名前</th>
-									<th class="text-center" style="width: 30%">備考</th>
-									<th class="text-center" style="width: 10%"></th>
-									<th class="text-center" style="width: 10%"></th>
-									<th class="text-center" style="width: 10%"></th>
-								</tr>
-							</thead>
-							<tbody>
-							<!-- -------------------------- -->
-							<!-- JavaScriptで自動に生成する -->
-							<!-- -------------------------- -->
-							</tbody>
-						</table>
-					</div>
+				</div>
+				<div class="card-body btn-group btn-group-justified">
+					<table class="table table-hover table-sm" id="party-management-reserve-table">
+						<thead>
+							<tr class="table-dark">
+								<th class="text-center" style="width: 5%">No</th>
+								<th class="text-center" style="width: 30%">名前</th>
+								<th class="text-center" style="width: 30%">備考</th>
+								<th class="text-center" style="width: 10%"></th>
+								<th class="text-center" style="width: 10%"></th>
+								<th class="text-center" style="width: 10%"></th>
+							</tr>
+						</thead>
+						<tbody>
+						<!-- -------------------------- -->
+						<!-- JavaScriptで自動に生成する -->
+						<!-- -------------------------- -->
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>
