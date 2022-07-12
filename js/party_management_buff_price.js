@@ -312,16 +312,14 @@ function createPartyManagementBuffPriceHtml(data) {
 	str += '<tr>'
 
 	// No
-	str += '<td class="text-center" id="no"></td>' // Noはcssでカウントしている
+	str += '<td class="text-center table-counter" id="no"></td>' // Noはcssでカウントしている
 
 	// 売買
 	str += '<td class="text-center" id="price-type">'
-	str += '<div class="form-group">'
-	str += '    <select id="select-price-type-' + index + '" class="form-control-sm">'
-	str += '        <option value="buy" ' + ('buy' == data.price_type ? 'selected' : '') + '>買い</option>'
-	str += '        <option value="sell" ' + ('sell' == data.price_type ? 'selected' : '') + '>売り</option>'
-	str += '    </select>'
-	str += '</div>'
+	str += '<select id="select-price-type-' + index + '" class="form-control-sm">'
+	str += '    <option value="buy" ' + ('buy' == data.price_type ? 'selected' : '') + '>買い</option>'
+	str += '    <option value="sell" ' + ('sell' == data.price_type ? 'selected' : '') + '>売り</option>'
+	str += '</select>'
 	str += '</td>'
 
 	// 金額
@@ -329,15 +327,13 @@ function createPartyManagementBuffPriceHtml(data) {
 
 	// 人数
 	str += '<td class="text-center" id="num">'
-	str += '<div class="form-group">'
-	str += '    <select id="select-num-' + index + '" class="form-control-sm">'
+	str += '<select id="select-num-' + index + '" class="form-control-sm">'
 
 	for (let i = 1; i <= 8; i++) {
-		str += '        <option value="' + i + '" ' + (data.num == i ? 'selected' : '') + '>' + i + '</option>'
+		str += '    <option value="' + i + '" ' + (data.num == i ? 'selected' : '') + '>' + i + '</option>'
 	}
 
-	str += '    </select>'
-	str += '</div>'
+	str += '</select>'
 	str += '</td>'
 
 	// 1人あたり

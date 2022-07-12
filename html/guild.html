@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>ちよしの部屋</title>
+
+	<!-- --------------------------------------------------------- -->
+	<!-- ---------------------- stylesheet ----------------------- -->
+	<!-- --------------------------------------------------------- -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.23/css/dataTables.bootstrap4.min.css"/>
+	<link href="../css/main.css" rel="stylesheet">
+
+	<!-- --------------------------------------------------------- -->
+	<!-- ---------------------- javascript ----------------------- -->
+	<!-- --------------------------------------------------------- -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/jquery.dataTables.min.js"></script>
+	<script type="text/javascript" src="https://cdn.datatables.net/1.10.23/js/dataTables.bootstrap4.min.js"></script>
+
+
+	<script type="text/javascript" src="../js/commonutil.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../js/data/guild_versus_history.json.js" charset="UTF-8"></script>
+	<script type="text/javascript" src="../js/guild.js" charset="UTF-8"></script>
+	<script language="javascript" type="text/javascript">
+		$(document).ready(function() {
+			// テーブル生成
+			createGuildVersusHistoryTableHtml(guild_versus_history_list);
+
+			// 生成されたテーブルをデータ化
+			$("#guild-versus-history-table").DataTable({
+				paging : true,
+				ordering : false,
+				scrollX :  false,
+				searching : true,
+				bSort : true,
+				bStateSave : false,
+				bInfo : true,
+				bAutoWidth : false,
+				lengthMenu : [ 30, 60, 120],
+				displayLength : 30,
+				oLanguage :  {
+					sLengthMenu :  "表示行数 _MENU_ 件",
+					oPaginate :  {
+						sNext :  "次のページ",
+						sPrevious :  "前のページ"
+				 	},
+				 	sInfo :  "全_TOTAL_件中 _START_件から_END_件を表示",
+				 	sSearch :  "検索："
+				}
+			});
+
+
+		});
+	</script>
+
+</head>
+
+<!-- --------------------------------------------------------- -->
+<!-- ------------------------ navbar ------------------------- -->
+<!-- --------------------------------------------------------- -->
+<div class="sticky-top">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-hex"">
+		<a class="navbar-brand" href="../index.html"><h4>ちよしの部屋</h4></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="../index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../html/gear.html">装備構成</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../html/party_management.html">PT管理</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="../html/treasure_map_history.html">地図記録</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="">攻城戦</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</div>
+
+<!-- --------------------------------------------------------- -->
+<!-- ---------------------- container ------------------------ -->
+<!-- --------------------------------------------------------- -->
+<div class="container-fluid my-3">
+
+	<table class="table table-hover table-sm" id="guild-versus-history-table">
+		<thead>
+			<tr class="thead-hex">
+				<td class="text-center" >日付</td>
+				<td class="text-center" >防衛</td>
+				<td class="text-center" colspan="2">ギルド</td>
+				<td class="text-center" >ポイント</td>
+				<td class="text-center" >攻撃</td>
+				<td class="text-center" colspan="2">ギルド</td>
+				<td class="text-center" >ポイント</td>
+			</tr>
+		</thead>
+		<tbody>
+		<!-- ---------------------------- -->
+		<!-- Javascriptでデータを生成する -->
+		<!-- ---------------------------- -->
+		</tbody>
+	</table>
+
+</div>
+</html>

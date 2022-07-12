@@ -41,8 +41,45 @@ table > tbody > tr {
 	counter-increment: rowCount;
 }
 
-table > tbody > tr > td:first-child::before {
+table > tbody > tr > .table-counter:first-child::before {
 	/* rowCount ƒJƒEƒ“ƒ^[‚Ì’l‚ğ•\¦ */
 	content: counter(rowCount);
 }
 
+.guildimage {
+	/* ‰¡• */
+	width:calc(25px * 1.618);
+	/* c• */
+	height:calc(25px * 1.618);
+}
+
+/* No Image */
+.noimage {
+	/* ‰¡• */
+	width:calc(25px * 1.618);
+	/* c• */
+	height:calc(25px * 1.618);
+	line-height:calc(25px * 1.618);
+	/* ˜gü */
+	border:solid 1px rgb(199,199,199);
+	/* ”wŒi */
+	background-color:rgb(249,249,249);
+	/* •¶š */
+	color:rgb(99,99,99);
+	font-size:5px;
+	/* ŠpŠÛ */
+	border-radius:4px;
+	/* ŠO‰e */
+	box-shadow:0 0 2px 1px rgb(236,236,236);
+	/*---ˆÈ‰º‚Í‚»‚Ì‚Ü‚Ü---*/
+	display:inline-block;
+	margin:0;
+	padding:0;
+	text-align:center;
+	font-family:"Helvetica Neue","ƒqƒ‰ƒMƒmŠpƒS ProN W3","Hiragino Kaku Gothic ProN","ƒƒCƒŠƒI",Meiryo,sans-serif;
+	letter-spacing:0.04em;
+}
+.noimage::before{
+	/*title“à‚Ì•¶š‚ğ•\¦*/
+	content:attr(title);
+}

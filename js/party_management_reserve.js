@@ -192,7 +192,7 @@ function createPartyManagementReserveHtml(data) {
 	str += '<tr>'
 
 	// No
-	str += '<td id="no"></td>' // Noはcssでカウントしている
+	str += '<td class="text-center table-counter" id="no"></td>' // Noはcssでカウントしている
 
 	// 名前
 	str += '<td id="name"><input type="text" maxlength="20" class="form-control form-control-sm" id="input-name-' + index +'" value="' + data.name + '"></td>'

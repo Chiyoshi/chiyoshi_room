@@ -342,7 +342,7 @@ function addTreasureMapHistory(buff) {
 function createTreasureMapHistoryHtml(date, time, buff, amount, index) {
 	let str = '';
 	str += '<tr>'
-	str += '<td class="text-center" id="no"></td>' // Noはcssでカウントしている
+	str += '<td class="text-center table-counter" id="no"></td>' // Noはcssでカウントしている
 	str += '<td class="text-center" id="date">' + date + '</td>'
 	str += '<td class="text-center" id="time">' + time + '</td>'
 	str += '<td class="text-center" id="buff">' + buff + '</td>'
@@ -370,7 +370,7 @@ function createTreasureMapHistoryHtml(date, time, buff, amount, index) {
 function createTreasureMapTotalHtml(date, exp, repop, drop, special, gold, weak, count, totalAmount, index) {
 	let str = '';
 	str += '<tr>'
-	str += '<td class="text-center" id="no"></td>' // Noはcssでカウントしている
+	str += '<td class="text-center table-counter" id="no"></td>' // Noはcssでカウントしている
 	str += '<td class="text-center" id="date">' + date + '</td>'
 	str += '<td class="text-center" id="exp">' + exp + '</td>'
 	str += '<td class="text-center" id="repop">' + repop + '</td>'
