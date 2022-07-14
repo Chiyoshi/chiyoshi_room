@@ -101,7 +101,7 @@ jQuery(function ($) {
 	/**
 	 * 略称テキスト変更時のアクション
 	 */
-	$(document).on('change', '#party-management-buff-price-table thead tr th [id^="input-short-name-"]', function () {
+	$(document).on('change', '#party-management-buff-price-table thead tr td [id^="input-short-name-"]', function () {
 		let shortNameList = {
 			shotname1: $('#input-short-name-1').val(),
 			shotname2: $('#input-short-name-2').val(),
