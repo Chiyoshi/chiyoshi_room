@@ -31,7 +31,7 @@ function createGuildVersusHistoryTableHtml(guild_versus_history_list) {
 
 		if (defenseGuildMarkImage) {
 			tableHtml += '<img class="guildimage" src="' + defenseGuildMarkImage + '" />';
-		} else {
+		} else if (defenseGuildName) {
 			tableHtml += '<span class="noimage" title="No Img"></span>';
 		}
 
@@ -43,13 +43,21 @@ function createGuildVersusHistoryTableHtml(guild_versus_history_list) {
 
 		if (attackGuildMarkImage) {
 			tableHtml += '<img class="guildimage" src="' + attackGuildMarkImage + '" />';
-		} else {
+		} else if (attackGuildName) {
 			tableHtml += '<span class="noimage" title="No Img"></span>';
 		}
 
 		tableHtml += '    </td>';
 		tableHtml += '    <td class="text-center">' + attackGuildName + '</td>';
-		tableHtml += '    <td class="text-center">' + attackPoint + '</td>';
+		
+		tableHtml += '    <td class="text-center">'
+
+		if (attackGuildName) {
+			tableHtml += attackPoint;
+		}
+
+		tableHtml += '    </td>';
+		
 		tableHtml += '</tr>';
 
 		$('#guild-versus-history-table').append(tableHtml);
