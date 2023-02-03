@@ -2,7 +2,7 @@ guild_versus_history_list =
 [ {
   "eventDate" : "20230204",
   "defenseRank" : "5",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 0,
   "attackRank" : "4",
@@ -12,7 +12,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230204",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9665080,
   "attackRank" : "3",
@@ -56,7 +56,7 @@ guild_versus_history_list =
   "defenseGuildName" : "旅の途中",
   "defensePoint" : 9660430,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/blue_moon.png",
   "attackGuildName" : "†BlueMoon†",
   "attackPoint" : 9663170
 }, {
@@ -76,7 +76,7 @@ guild_versus_history_list =
   "defenseGuildName" : "よろずや♪",
   "defensePoint" : 9657650,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9664370
 }, {
@@ -162,7 +162,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230204",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9658570,
   "attackRank" : "1",
@@ -306,7 +306,7 @@ guild_versus_history_list =
   "defenseGuildName" : "～Sweet☆Magic～",
   "defensePoint" : 9655030,
   "attackRank" : "4",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "attackGuildName" : "パニックルームMk－Ⅱ",
   "attackPoint" : 9659230
 }, {
@@ -316,7 +316,7 @@ guild_versus_history_list =
   "defenseGuildName" : "彩なき風の子守唄",
   "defensePoint" : 9658910,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9667080
 }, {
@@ -372,7 +372,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230128",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9658900,
   "attackRank" : "2",
@@ -432,7 +432,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230128",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9662530,
   "attackRank" : "1",
@@ -546,7 +546,7 @@ guild_versus_history_list =
   "defenseGuildName" : "☆カミサマの遊技場☆",
   "defensePoint" : 9658430,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/blue_moon.png",
   "attackGuildName" : "†BlueMoon†",
   "attackPoint" : 9641620
 }, {
@@ -622,7 +622,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230121",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9660510,
   "attackRank" : "3",
@@ -656,7 +656,7 @@ guild_versus_history_list =
   "defenseGuildName" : "NBAライブ",
   "defensePoint" : 9660180,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9667330
 }, {
@@ -666,7 +666,7 @@ guild_versus_history_list =
   "defenseGuildName" : "Legend_Hearts",
   "defensePoint" : 9659890,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/28kumi.png",
   "attackGuildName" : "２８組",
   "attackPoint" : 9667610
 }, {
@@ -776,7 +776,7 @@ guild_versus_history_list =
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 9662460,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9249080
 }, {
@@ -852,7 +852,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230121",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9656550,
   "attackRank" : "1",
@@ -902,7 +902,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230114",
   "defenseRank" : "5",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 0,
   "attackRank" : "4",
@@ -942,7 +942,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230114",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9663390,
   "attackRank" : "2",
@@ -1102,7 +1102,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230114",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9659250,
   "attackRank" : "1",
@@ -1152,7 +1152,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230114",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9657790,
   "attackRank" : "1",
@@ -1192,7 +1192,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230114",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9654760,
   "attackRank" : "1",
@@ -1206,7 +1206,7 @@ guild_versus_history_list =
   "defenseGuildName" : "旅の途中",
   "defensePoint" : 9661160,
   "attackRank" : "4",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "attackGuildName" : "パニックルームMk－Ⅱ",
   "attackPoint" : 9662370
 }, {
@@ -1272,7 +1272,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230107",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9657550,
   "attackRank" : "2",
@@ -1332,7 +1332,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230107",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9663190,
   "attackRank" : "1",
@@ -1362,7 +1362,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230107",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9661970,
   "attackRank" : "1",
@@ -1372,7 +1372,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230107",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9661250,
   "attackRank" : "1",
@@ -1502,7 +1502,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221231",
   "defenseRank" : "5",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 7188140,
   "attackRank" : "4",
@@ -1562,7 +1562,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221231",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9659330,
   "attackRank" : "2",
@@ -1592,7 +1592,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221231",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9460060,
   "attackRank" : "2",
@@ -1682,7 +1682,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221231",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9660750,
   "attackRank" : "1",
@@ -1796,7 +1796,7 @@ guild_versus_history_list =
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 0,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9669760
 }, {
@@ -1806,7 +1806,7 @@ guild_versus_history_list =
   "defenseGuildName" : "旅の途中",
   "defensePoint" : 9654510,
   "attackRank" : "4",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "attackGuildName" : "パニックルームMk－Ⅱ",
   "attackPoint" : 9667060
 }, {
@@ -1816,7 +1816,7 @@ guild_versus_history_list =
   "defenseGuildName" : "～Sweet☆Magic～",
   "defensePoint" : 9662220,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9663410
 }, {
@@ -1846,7 +1846,7 @@ guild_versus_history_list =
   "defenseGuildName" : "マッタリ",
   "defensePoint" : 9660120,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/blue_moon.png",
   "attackGuildName" : "†BlueMoon†",
   "attackPoint" : 9663950
 }, {
@@ -2006,7 +2006,7 @@ guild_versus_history_list =
   "defenseGuildName" : "Spirit　of　Fire",
   "defensePoint" : 9659540,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9613010
 }, {
@@ -2022,7 +2022,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221224",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9659320,
   "attackRank" : "1",
@@ -2122,7 +2122,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221217",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9659320,
   "attackRank" : "3",
@@ -2182,7 +2182,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221217",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9658520,
   "attackRank" : "2",
@@ -2202,7 +2202,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221217",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9663400,
   "attackRank" : "1",
@@ -2352,7 +2352,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221217",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9654380,
   "attackRank" : "1",
@@ -2386,7 +2386,7 @@ guild_versus_history_list =
   "defenseGuildName" : "乱舞蝶",
   "defensePoint" : 0,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9661720
 }, {
@@ -2426,13 +2426,13 @@ guild_versus_history_list =
   "defenseGuildName" : "高原組",
   "defensePoint" : 9655480,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "attackGuildName" : "パニックルームMk－Ⅱ",
   "attackPoint" : 9666090
 }, {
   "eventDate" : "20221210",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9663890,
   "attackRank" : "2",
@@ -2562,7 +2562,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221210",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9659560,
   "attackRank" : "1",
@@ -2686,7 +2686,7 @@ guild_versus_history_list =
   "defenseGuildName" : "ぬ゛",
   "defensePoint" : 9656700,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/blue_moon.png",
   "attackGuildName" : "†BlueMoon†",
   "attackPoint" : 9663420
 }, {
@@ -2732,7 +2732,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221203",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9664990,
   "attackRank" : "2",
@@ -2762,7 +2762,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221203",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9662130,
   "attackRank" : "2",
@@ -2792,7 +2792,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221203",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9649540,
   "attackRank" : "2",
@@ -2916,7 +2916,7 @@ guild_versus_history_list =
   "defenseGuildName" : "Spirit　of　Fire",
   "defensePoint" : 9658500,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9460040
 }, {
@@ -2992,7 +2992,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221203",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 6315800,
   "attackRank" : "1",
@@ -3012,7 +3012,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221126",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9660180,
   "attackRank" : "3",
@@ -3072,7 +3072,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221126",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9663480,
   "attackRank" : "2",
@@ -3092,7 +3092,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221126",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9469380,
   "attackRank" : "2",
@@ -3172,7 +3172,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221126",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9661770,
   "attackRank" : "1",
@@ -3236,7 +3236,7 @@ guild_versus_history_list =
   "defenseGuildName" : "ひよこ戦隊赤レンジャー",
   "defensePoint" : 9659550,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9659240
 }, {
@@ -3312,7 +3312,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221119",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9658920,
   "attackRank" : "3",
@@ -3346,7 +3346,7 @@ guild_versus_history_list =
   "defenseGuildName" : "一華咲",
   "defensePoint" : 9660190,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/28kumi.png",
   "attackGuildName" : "２８組",
   "attackPoint" : 9663240
 }, {
@@ -3396,7 +3396,7 @@ guild_versus_history_list =
   "defenseGuildName" : "♪PartyPeople♪",
   "defensePoint" : 0,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "attackGuildName" : "パニックルームMk－Ⅱ",
   "attackPoint" : 9669540
 }, {
@@ -3546,13 +3546,13 @@ guild_versus_history_list =
   "defenseGuildName" : "うさみふぁみりぃ",
   "defensePoint" : 9657460,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/blue_moon.png",
   "attackGuildName" : "†BlueMoon†",
   "attackPoint" : 9658980
 }, {
   "eventDate" : "20221119",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9655960,
   "attackRank" : "1",
@@ -3602,7 +3602,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221112",
   "defenseRank" : "5",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 0,
   "attackRank" : "4",
@@ -3692,7 +3692,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221112",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 0,
   "attackRank" : "2",
@@ -3742,7 +3742,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221112",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9660170,
   "attackRank" : "1",
@@ -3752,7 +3752,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221112",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9660100,
   "attackRank" : "1",
@@ -3882,7 +3882,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221112",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 8752720,
   "attackRank" : "1",
@@ -3906,7 +3906,7 @@ guild_versus_history_list =
   "defenseGuildName" : "～Sweet☆Magic～",
   "defensePoint" : 434000,
   "attackRank" : "4",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9666110
 }, {
@@ -3922,7 +3922,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221105",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9661170,
   "attackRank" : "3",
@@ -3952,7 +3952,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221105",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9662990,
   "attackRank" : "2",
@@ -4042,7 +4042,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221105",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9661810,
   "attackRank" : "1",
@@ -4082,7 +4082,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221105",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9660580,
   "attackRank" : "1",
@@ -4202,7 +4202,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221029",
   "defenseRank" : "5",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 0,
   "attackRank" : "4",
@@ -4216,7 +4216,7 @@ guild_versus_history_list =
   "defenseGuildName" : "パンプキン・ハーツ",
   "defensePoint" : 9659530,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "attackGuildName" : "パニックルームMk－Ⅱ",
   "attackPoint" : 9660920
 }, {
@@ -4236,7 +4236,7 @@ guild_versus_history_list =
   "defenseGuildName" : "♪PartyPeople♪",
   "defensePoint" : 9658750,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9664610
 }, {
@@ -4256,7 +4256,7 @@ guild_versus_history_list =
   "defenseGuildName" : "旅の途中",
   "defensePoint" : 9656920,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/blue_moon.png",
   "attackGuildName" : "†BlueMoon†",
   "attackPoint" : 9666370
 }, {
@@ -4412,7 +4412,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221029",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9659400,
   "attackRank" : "1",
@@ -4506,7 +4506,7 @@ guild_versus_history_list =
   "defenseGuildName" : "～Sweet☆Magic～",
   "defensePoint" : 2035840,
   "attackRank" : "4",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9664760
 }, {
@@ -4582,7 +4582,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221022",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9656170,
   "attackRank" : "2",
@@ -4612,7 +4612,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221022",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9663300,
   "attackRank" : "1",
@@ -4736,7 +4736,7 @@ guild_versus_history_list =
   "defenseGuildName" : "noche",
   "defensePoint" : 9656200,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/28kumi.png",
   "attackGuildName" : "２８組",
   "attackPoint" : 9657080
 }, {
@@ -4782,7 +4782,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221022",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9650930,
   "attackRank" : "1",
@@ -4816,7 +4816,7 @@ guild_versus_history_list =
   "defenseGuildName" : "乱舞蝶",
   "defensePoint" : 9658480,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9664360
 }, {
@@ -4866,7 +4866,7 @@ guild_versus_history_list =
   "defenseGuildName" : "よろずや♪",
   "defensePoint" : 9660380,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "attackGuildName" : "パニックルームMk－Ⅱ",
   "attackPoint" : 9666040
 }, {
@@ -4952,7 +4952,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221015",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9661380,
   "attackRank" : "1",
@@ -5032,7 +5032,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221015",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9659190,
   "attackRank" : "1",
@@ -5066,7 +5066,7 @@ guild_versus_history_list =
   "defenseGuildName" : "一華咲",
   "defensePoint" : 9654640,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/blue_moon.png",
   "attackGuildName" : "†BlueMoon†",
   "attackPoint" : 9659400
 }, {
@@ -5182,7 +5182,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221008",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9657630,
   "attackRank" : "2",
@@ -5196,13 +5196,13 @@ guild_versus_history_list =
   "defenseGuildName" : "　お茶会",
   "defensePoint" : 9655180,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9669120
 }, {
   "eventDate" : "20221008",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9665310,
   "attackRank" : "1",
@@ -5332,7 +5332,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221008",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9659610,
   "attackRank" : "1",
@@ -5362,7 +5362,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221008",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9657740,
   "attackRank" : "1",
@@ -5442,7 +5442,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221001",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9664260,
   "attackRank" : "2",
@@ -5502,7 +5502,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221001",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9663340,
   "attackRank" : "1",
@@ -5582,7 +5582,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221001",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9660270,
   "attackRank" : "1",
@@ -5612,7 +5612,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221001",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9659300,
   "attackRank" : "1",
@@ -5686,7 +5686,7 @@ guild_versus_history_list =
   "defenseGuildName" : "GandS",
   "defensePoint" : 2035760,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/blue_moon.png",
   "attackGuildName" : "†BlueMoon†",
   "attackPoint" : 9661650
 }, {
@@ -5742,11 +5742,11 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220924",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9663340,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/28kumi.png",
   "attackGuildName" : "２８組",
   "attackPoint" : 9663890
 }, {
@@ -5872,7 +5872,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220924",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9661330,
   "attackRank" : "1",
@@ -5926,7 +5926,7 @@ guild_versus_history_list =
   "defenseGuildName" : "☆安心できる憩いの場☆",
   "defensePoint" : 9656680,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "attackGuildName" : "パニックルームMk－Ⅱ",
   "attackPoint" : 8901270
 }, {
@@ -5982,7 +5982,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220924",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 5040590,
   "attackRank" : "1",
@@ -6042,11 +6042,11 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220917",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9661320,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9665780
 }, {
@@ -6132,7 +6132,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220917",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9661460,
   "attackRank" : "1",
@@ -6152,7 +6152,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220917",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9661030,
   "attackRank" : "1",
@@ -6242,7 +6242,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220917",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9657970,
   "attackRank" : "1",
@@ -6322,7 +6322,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220910",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9658210,
   "attackRank" : "3",
@@ -6352,7 +6352,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220910",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9659380,
   "attackRank" : "2",
@@ -6502,7 +6502,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220910",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9658290,
   "attackRank" : "1",
@@ -6516,7 +6516,7 @@ guild_versus_history_list =
   "defenseGuildName" : "一華咲",
   "defensePoint" : 9657120,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "attackGuildName" : "パニックルームMk－Ⅱ",
   "attackPoint" : 8669020
 }, {
@@ -6556,7 +6556,7 @@ guild_versus_history_list =
   "defenseGuildName" : "彩なき風の子守唄",
   "defensePoint" : 9652590,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/blue_moon.png",
   "attackGuildName" : "†BlueMoon†",
   "attackPoint" : 9615360
 }, {
@@ -6616,7 +6616,7 @@ guild_versus_history_list =
   "defenseGuildName" : "乱舞蝶",
   "defensePoint" : 9664010,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9666280
 }, {
@@ -6642,7 +6642,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220903",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9664360,
   "attackRank" : "2",
@@ -6676,7 +6676,7 @@ guild_versus_history_list =
   "defenseGuildName" : "GandS",
   "defensePoint" : 9660530,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9665880
 }, {
@@ -6822,7 +6822,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220903",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9656790,
   "attackRank" : "1",
@@ -6892,7 +6892,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220903",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 6176040,
   "attackRank" : "1",
@@ -6922,7 +6922,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220827",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9667000,
   "attackRank" : "3",
@@ -6956,7 +6956,7 @@ guild_versus_history_list =
   "defenseGuildName" : "彩なき風の子守唄",
   "defensePoint" : 9659960,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9665070
 }, {
@@ -6982,7 +6982,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220827",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9653960,
   "attackRank" : "2",
@@ -7092,7 +7092,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220827",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9660320,
   "attackRank" : "1",
@@ -7132,7 +7132,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220827",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9658990,
   "attackRank" : "1",
@@ -7216,7 +7216,7 @@ guild_versus_history_list =
   "defenseGuildName" : "一華咲",
   "defensePoint" : 9664600,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/28kumi.png",
   "attackGuildName" : "２８組",
   "attackPoint" : 9665180
 }, {
@@ -7232,7 +7232,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220820",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9663950,
   "attackRank" : "2",
@@ -7252,7 +7252,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220820",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9662520,
   "attackRank" : "2",
@@ -7262,7 +7262,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220820",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9661950,
   "attackRank" : "2",
@@ -7492,7 +7492,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220820",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9634430,
   "attackRank" : "1",
@@ -7522,7 +7522,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220813",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9651120,
   "attackRank" : "3",
@@ -7532,7 +7532,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220813",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9661540,
   "attackRank" : "2",
@@ -7572,7 +7572,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220813",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9657080,
   "attackRank" : "2",
@@ -7596,13 +7596,13 @@ guild_versus_history_list =
   "defenseGuildName" : "Spirit　of　Fire",
   "defensePoint" : 9654830,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9670190
 }, {
   "eventDate" : "20220813",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9663030,
   "attackRank" : "1",
@@ -7826,13 +7826,13 @@ guild_versus_history_list =
   "defenseGuildName" : "Spirit　of　Fire",
   "defensePoint" : 9656980,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9669720
 }, {
   "eventDate" : "20220806",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9662690,
   "attackRank" : "2",
@@ -7862,11 +7862,11 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220806",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9658910,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "attackGuildName" : "パニックルームMk－Ⅱ",
   "attackPoint" : 9666040
 }, {
@@ -7922,7 +7922,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220806",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9663590,
   "attackRank" : "1",
@@ -8162,7 +8162,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220730",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9661400,
   "attackRank" : "2",
@@ -8176,7 +8176,7 @@ guild_versus_history_list =
   "defenseGuildName" : "ふるさと愛",
   "defensePoint" : 9659160,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9667730
 }, {
@@ -8196,7 +8196,7 @@ guild_versus_history_list =
   "defenseGuildName" : "乱舞蝶",
   "defensePoint" : 9654220,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9673190
 }, {
@@ -8242,7 +8242,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220730",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9660920,
   "attackRank" : "1",
@@ -8392,7 +8392,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220730",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9587030,
   "attackRank" : "1",
@@ -8412,7 +8412,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220723",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9666440,
   "attackRank" : "3",
@@ -8472,7 +8472,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220723",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9661170,
   "attackRank" : "2",
@@ -8512,7 +8512,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220723",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9663090,
   "attackRank" : "1",
@@ -8666,7 +8666,7 @@ guild_versus_history_list =
   "defenseGuildName" : "noche",
   "defensePoint" : 9653970,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "attackGuildName" : "パニックルームMk－Ⅱ",
   "attackPoint" : 9449770
 }, {
@@ -8676,7 +8676,7 @@ guild_versus_history_list =
   "defenseGuildName" : "NBAライブ",
   "defensePoint" : 8838480,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9513720
 }, {
@@ -8722,7 +8722,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220716",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 9662960,
   "attackRank" : "3",
@@ -8772,7 +8772,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220716",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9660040,
   "attackRank" : "2",
@@ -8786,7 +8786,7 @@ guild_versus_history_list =
   "defenseGuildName" : "♪PartyPeople♪",
   "defensePoint" : 9657940,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/blue_moon.png",
   "attackGuildName" : "†BlueMoon†",
   "attackPoint" : 9667000
 }, {
@@ -8962,7 +8962,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220716",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 0,
   "attackRank" : "1",
@@ -8972,7 +8972,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220716",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 0,
   "attackRank" : "1",
@@ -9002,7 +9002,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220709",
   "defenseRank" : "5",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/28kumi.png",
   "defenseGuildName" : "２８組",
   "defensePoint" : 0,
   "attackRank" : "4",
@@ -9022,7 +9022,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220709",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "defenseGuildName" : "ピアノの森",
   "defensePoint" : 9660040,
   "attackRank" : "3",
@@ -9082,7 +9082,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220709",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/fuyajo.png",
   "defenseGuildName" : "不夜城",
   "defensePoint" : 9657860,
   "attackRank" : "2",
@@ -9122,7 +9122,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220709",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9661320,
   "attackRank" : "1",
@@ -9152,7 +9152,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220709",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9661130,
   "attackRank" : "1",
@@ -9306,7 +9306,7 @@ guild_versus_history_list =
   "defenseGuildName" : "†天空の時計塔†",
   "defensePoint" : 0,
   "attackRank" : "4",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/28kumi.png",
   "attackGuildName" : "２８組",
   "attackPoint" : 9663180
 }, {
@@ -9326,7 +9326,7 @@ guild_versus_history_list =
   "defenseGuildName" : "～Sweet☆Magic～",
   "defensePoint" : 9657110,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/piano_no_mori.png",
   "attackGuildName" : "ピアノの森",
   "attackPoint" : 9674200
 }, {
@@ -9336,7 +9336,7 @@ guild_versus_history_list =
   "defenseGuildName" : "紫龍会",
   "defensePoint" : 9664750,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/fuyajo.png",
   "attackGuildName" : "不夜城",
   "attackPoint" : 9664520
 }, {
@@ -9492,7 +9492,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220702",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 9659160,
   "attackRank" : "1",
@@ -9562,7 +9562,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220702",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/blue_moon.png",
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9656750,
   "attackRank" : "1",
