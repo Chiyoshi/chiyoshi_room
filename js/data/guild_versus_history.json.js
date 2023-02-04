@@ -182,7 +182,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230204",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/shijinsouou.png",
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 9657990,
   "attackRank" : "1",
@@ -216,7 +216,7 @@ guild_versus_history_list =
   "defenseGuildName" : "Legend_Hearts",
   "defensePoint" : 9657110,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9654510
 }, {
@@ -226,13 +226,13 @@ guild_versus_history_list =
   "defenseGuildName" : "以心伝心",
   "defensePoint" : 9657090,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/noche.png",
   "attackGuildName" : "noche",
   "attackPoint" : 9658640
 }, {
   "eventDate" : "20230204",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9656290,
   "attackRank" : "1",
@@ -452,7 +452,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230128",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9661960,
   "attackRank" : "1",
@@ -482,7 +482,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230128",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9661130,
   "attackRank" : "1",
@@ -572,7 +572,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230128",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9657630,
   "attackRank" : "1",
@@ -586,7 +586,7 @@ guild_versus_history_list =
   "defenseGuildName" : "♪PartyPeople♪",
   "defensePoint" : 9656880,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/shijinsouou.png",
   "attackGuildName" : "Si：神相応",
   "attackPoint" : 9658530
 }, {
@@ -696,7 +696,7 @@ guild_versus_history_list =
   "defenseGuildName" : "HeiligerRitter",
   "defensePoint" : 9654350,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9671780
 }, {
@@ -732,7 +732,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230121",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9664110,
   "attackRank" : "1",
@@ -772,7 +772,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230121",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/shijinsouou.png",
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 9662460,
   "attackRank" : "1",
@@ -896,7 +896,7 @@ guild_versus_history_list =
   "defenseGuildName" : "ラオス共和国",
   "defensePoint" : 0,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/noche.png",
   "attackGuildName" : "noche",
   "attackPoint" : 9666680
 }, {
@@ -1032,7 +1032,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230114",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9662820,
   "attackRank" : "1",
@@ -1052,7 +1052,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230114",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9661400,
   "attackRank" : "1",
@@ -1092,7 +1092,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230114",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/shijinsouou.png",
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 9659490,
   "attackRank" : "1",
@@ -1122,7 +1122,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230114",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9658670,
   "attackRank" : "1",
@@ -1232,7 +1232,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230107",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9664120,
   "attackRank" : "2",
@@ -1282,7 +1282,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20230107",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9656800,
   "attackRank" : "2",
@@ -1476,7 +1476,7 @@ guild_versus_history_list =
   "defenseGuildName" : "うさみふぁみりぃ",
   "defensePoint" : 9658180,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9661190
 }, {
@@ -1486,7 +1486,7 @@ guild_versus_history_list =
   "defenseGuildName" : "宝石の国",
   "defensePoint" : 9656230,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/shijinsouou.png",
   "attackGuildName" : "Si：神相応",
   "attackPoint" : 9661540
 }, {
@@ -1532,7 +1532,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221231",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9660820,
   "attackRank" : "2",
@@ -1586,7 +1586,7 @@ guild_versus_history_list =
   "defenseGuildName" : "うさみふぁみりぃ",
   "defensePoint" : 9657060,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/gands.png",
   "attackGuildName" : "GandS",
   "attackPoint" : 9668670
 }, {
@@ -1766,7 +1766,7 @@ guild_versus_history_list =
   "defenseGuildName" : "ギニュー特戦隊",
   "defensePoint" : 9655450,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9656190
 }, {
@@ -1792,7 +1792,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221231",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/shijinsouou.png",
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 0,
   "attackRank" : "1",
@@ -1836,7 +1836,7 @@ guild_versus_history_list =
   "defenseGuildName" : "パンプキン・ハーツ",
   "defensePoint" : 9661070,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/noche.png",
   "attackGuildName" : "noche",
   "attackPoint" : 9663840
 }, {
@@ -1912,7 +1912,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221224",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9663110,
   "attackRank" : "1",
@@ -1932,7 +1932,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221224",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/shijinsouou.png",
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 9662380,
   "attackRank" : "1",
@@ -2042,7 +2042,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221224",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9657230,
   "attackRank" : "1",
@@ -2136,7 +2136,7 @@ guild_versus_history_list =
   "defenseGuildName" : "Legend_Hearts",
   "defensePoint" : 9663730,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/gands.png",
   "attackGuildName" : "GandS",
   "attackPoint" : 9663880
 }, {
@@ -2152,7 +2152,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221217",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9663240,
   "attackRank" : "2",
@@ -2212,7 +2212,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221217",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9663190,
   "attackRank" : "1",
@@ -2396,7 +2396,7 @@ guild_versus_history_list =
   "defenseGuildName" : "ふるさと愛",
   "defensePoint" : 0,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/shijinsouou.png",
   "attackGuildName" : "Si：神相応",
   "attackPoint" : 9665710
 }, {
@@ -2422,7 +2422,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221210",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9655480,
   "attackRank" : "3",
@@ -2492,7 +2492,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221210",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9655230,
   "attackRank" : "2",
@@ -2522,7 +2522,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221210",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9661530,
   "attackRank" : "1",
@@ -2696,7 +2696,7 @@ guild_versus_history_list =
   "defenseGuildName" : "北海道ギルド【なまら】",
   "defensePoint" : 9654790,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/shijinsouou.png",
   "attackGuildName" : "Si：神相応",
   "attackPoint" : 9667570
 }, {
@@ -2726,7 +2726,7 @@ guild_versus_history_list =
   "defenseGuildName" : "よろずや♪",
   "defensePoint" : 9663330,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9672100
 }, {
@@ -2772,11 +2772,11 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221203",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9660350,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/noche.png",
   "attackGuildName" : "noche",
   "attackPoint" : 9665730
 }, {
@@ -2972,7 +2972,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221203",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/shijinsouou.png",
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 9621000,
   "attackRank" : "1",
@@ -3056,7 +3056,7 @@ guild_versus_history_list =
   "defenseGuildName" : "パンプキン・ハーツ",
   "defensePoint" : 9664500,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9665860
 }, {
@@ -3086,7 +3086,7 @@ guild_versus_history_list =
   "defenseGuildName" : "　お茶会",
   "defensePoint" : 9660600,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/gands.png",
   "attackGuildName" : "GandS",
   "attackPoint" : 9666760
 }, {
@@ -3132,7 +3132,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221126",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/shijinsouou.png",
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 9663960,
   "attackRank" : "1",
@@ -3162,7 +3162,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221126",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9662400,
   "attackRank" : "1",
@@ -3366,7 +3366,7 @@ guild_versus_history_list =
   "defenseGuildName" : "乱舞蝶",
   "defensePoint" : 9658660,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/shijinsouou.png",
   "attackGuildName" : "Si：神相応",
   "attackPoint" : 9663670
 }, {
@@ -3432,7 +3432,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221119",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9662500,
   "attackRank" : "1",
@@ -3442,7 +3442,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221119",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9661970,
   "attackRank" : "1",
@@ -3566,7 +3566,7 @@ guild_versus_history_list =
   "defenseGuildName" : "ロンド＝ベル",
   "defensePoint" : 9655200,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/gands.png",
   "attackGuildName" : "GandS",
   "attackPoint" : 9660340
 }, {
@@ -3592,7 +3592,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221119",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 0,
   "attackRank" : "1",
@@ -3722,7 +3722,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221112",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9660760,
   "attackRank" : "1",
@@ -3802,7 +3802,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221112",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9658610,
   "attackRank" : "1",
@@ -3822,7 +3822,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221112",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9658060,
   "attackRank" : "1",
@@ -3836,7 +3836,7 @@ guild_versus_history_list =
   "defenseGuildName" : "☆ラスプーチン☆",
   "defensePoint" : 9657230,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9658770
 }, {
@@ -3892,7 +3892,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221112",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/shijinsouou.png",
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 0,
   "attackRank" : "1",
@@ -3936,7 +3936,7 @@ guild_versus_history_list =
   "defenseGuildName" : "†天空の時計塔†",
   "defensePoint" : 9666660,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/noche.png",
   "attackGuildName" : "noche",
   "attackPoint" : 9664190
 }, {
@@ -3976,7 +3976,7 @@ guild_versus_history_list =
   "defenseGuildName" : "一華咲",
   "defensePoint" : 9660050,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/orange_days.png",
   "attackGuildName" : "OrangeDays",
   "attackPoint" : 9666370
 }, {
@@ -4116,7 +4116,7 @@ guild_versus_history_list =
   "defenseGuildName" : "☆さまなーず☆",
   "defensePoint" : 9659130,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/shijinsouou.png",
   "attackGuildName" : "Si：神相応",
   "attackPoint" : 9654980
 }, {
@@ -4152,7 +4152,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221105",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9657050,
   "attackRank" : "1",
@@ -4186,7 +4186,7 @@ guild_versus_history_list =
   "defenseGuildName" : "以心伝心",
   "defensePoint" : 9650200,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/gands.png",
   "attackGuildName" : "GandS",
   "attackPoint" : 9665870
 }, {
@@ -4242,7 +4242,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221029",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9657080,
   "attackRank" : "2",
@@ -4272,7 +4272,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221029",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9656110,
   "attackRank" : "2",
@@ -4372,7 +4372,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221029",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/shijinsouou.png",
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 9659980,
   "attackRank" : "1",
@@ -4436,7 +4436,7 @@ guild_versus_history_list =
   "defenseGuildName" : "鋼鉄のＳＮＯＯＰＹ",
   "defensePoint" : 9659160,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/noche.png",
   "attackGuildName" : "noche",
   "attackPoint" : 9654930
 }, {
@@ -4466,7 +4466,7 @@ guild_versus_history_list =
   "defenseGuildName" : "ロンド＝ベル",
   "defensePoint" : 9656800,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/gands.png",
   "attackGuildName" : "GandS",
   "attackPoint" : 9659980
 }, {
@@ -4512,7 +4512,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221022",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9657010,
   "attackRank" : "3",
@@ -4596,7 +4596,7 @@ guild_versus_history_list =
   "defenseGuildName" : "ふるさと愛",
   "defensePoint" : 9651750,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9672500
 }, {
@@ -4672,7 +4672,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221022",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/shijinsouou.png",
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 9658290,
   "attackRank" : "1",
@@ -4732,7 +4732,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221022",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9656200,
   "attackRank" : "1",
@@ -4762,7 +4762,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221022",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9653000,
   "attackRank" : "1",
@@ -4806,7 +4806,7 @@ guild_versus_history_list =
   "defenseGuildName" : "～Sweet☆Magic～",
   "defensePoint" : 0,
   "attackRank" : "4",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/orange_days.png",
   "attackGuildName" : "OrangeDays",
   "attackPoint" : 9663970
 }, {
@@ -4892,7 +4892,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221015",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9656340,
   "attackRank" : "2",
@@ -4912,7 +4912,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221015",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9662750,
   "attackRank" : "1",
@@ -4932,7 +4932,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221015",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/shijinsouou.png",
   "defenseGuildName" : "Si：神相応",
   "defensePoint" : 9661710,
   "attackRank" : "1",
@@ -4972,7 +4972,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221015",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9660440,
   "attackRank" : "1",
@@ -5122,7 +5122,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221008",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9660450,
   "attackRank" : "3",
@@ -5186,7 +5186,7 @@ guild_versus_history_list =
   "defenseGuildName" : "２８組",
   "defensePoint" : 9657630,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9668360
 }, {
@@ -5316,7 +5316,7 @@ guild_versus_history_list =
   "defenseGuildName" : "ひよこ戦隊赤レンジャー",
   "defensePoint" : 9660250,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/gands.png",
   "attackGuildName" : "GandS",
   "attackPoint" : 9650760
 }, {
@@ -5356,7 +5356,7 @@ guild_versus_history_list =
   "defenseGuildName" : "北海道ギルド【なまら】",
   "defensePoint" : 9658460,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/shijinsouou.png",
   "attackGuildName" : "Si：神相応",
   "attackPoint" : 9661970
 }, {
@@ -5392,7 +5392,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221008",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9651230,
   "attackRank" : "1",
@@ -5416,7 +5416,7 @@ guild_versus_history_list =
   "defenseGuildName" : "HeiligerRitter",
   "defensePoint" : 9665170,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/orange_days.png",
   "attackGuildName" : "OrangeDays",
   "attackPoint" : 9668680
 }, {
@@ -5472,7 +5472,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221001",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9658450,
   "attackRank" : "2",
@@ -5552,7 +5552,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221001",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9661240,
   "attackRank" : "1",
@@ -5682,7 +5682,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20221001",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 2035760,
   "attackRank" : "1",
@@ -5756,7 +5756,7 @@ guild_versus_history_list =
   "defenseGuildName" : "北海道ギルド【なまら】",
   "defensePoint" : 9661030,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/orange_days.png",
   "attackGuildName" : "OrangeDays",
   "attackPoint" : 9663970
 }, {
@@ -5782,7 +5782,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220924",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9657620,
   "attackRank" : "2",
@@ -5832,7 +5832,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220924",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9662280,
   "attackRank" : "1",
@@ -5962,7 +5962,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220924",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9571820,
   "attackRank" : "1",
@@ -6052,7 +6052,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220917",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9661110,
   "attackRank" : "2",
@@ -6072,7 +6072,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220917",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9657650,
   "attackRank" : "2",
@@ -6266,7 +6266,7 @@ guild_versus_history_list =
   "defenseGuildName" : "くらえー！邪王炎殺こｋ",
   "defensePoint" : 9656450,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9660510
 }, {
@@ -6292,7 +6292,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220917",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 0,
   "attackRank" : "1",
@@ -6312,7 +6312,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220910",
   "defenseRank" : "4",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9664210,
   "attackRank" : "3",
@@ -6356,13 +6356,13 @@ guild_versus_history_list =
   "defenseGuildName" : "２８組",
   "defensePoint" : 9659380,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/noche.png",
   "attackGuildName" : "noche",
   "attackPoint" : 9664930
 }, {
   "eventDate" : "20220910",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9653800,
   "attackRank" : "2",
@@ -6562,7 +6562,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220910",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9652500,
   "attackRank" : "1",
@@ -6626,7 +6626,7 @@ guild_versus_history_list =
   "defenseGuildName" : "旅の途中",
   "defensePoint" : 9657570,
   "attackRank" : "3",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/orange_days.png",
   "attackGuildName" : "OrangeDays",
   "attackPoint" : 9666530
 }, {
@@ -6672,7 +6672,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220903",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9660530,
   "attackRank" : "2",
@@ -6722,7 +6722,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220903",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9663210,
   "attackRank" : "1",
@@ -6802,7 +6802,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220903",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9658600,
   "attackRank" : "1",
@@ -6966,7 +6966,7 @@ guild_versus_history_list =
   "defenseGuildName" : "新興宗教ガミガミ教",
   "defensePoint" : 9656250,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/orange_days.png",
   "attackGuildName" : "OrangeDays",
   "attackPoint" : 9665220
 }, {
@@ -6992,7 +6992,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220827",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9650200,
   "attackRank" : "2",
@@ -7072,7 +7072,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220827",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9661700,
   "attackRank" : "1",
@@ -7162,7 +7162,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220827",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9655790,
   "attackRank" : "1",
@@ -7282,11 +7282,11 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220820",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9658580,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/gands.png",
   "attackGuildName" : "GandS",
   "attackPoint" : 9669160
 }, {
@@ -7412,7 +7412,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220820",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9659020,
   "attackRank" : "1",
@@ -7426,7 +7426,7 @@ guild_versus_history_list =
   "defenseGuildName" : "☆安心できる憩いの場☆",
   "defensePoint" : 9658490,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/noche.png",
   "attackGuildName" : "noche",
   "attackPoint" : 9086600
 }, {
@@ -7586,7 +7586,7 @@ guild_versus_history_list =
   "defenseGuildName" : "ひよこ戦隊赤レンジャー",
   "defensePoint" : 9657000,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/orange_days.png",
   "attackGuildName" : "OrangeDays",
   "attackPoint" : 9669960
 }, {
@@ -7652,7 +7652,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220813",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9660590,
   "attackRank" : "1",
@@ -7722,7 +7722,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220813",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9657540,
   "attackRank" : "1",
@@ -7772,7 +7772,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220813",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9649160,
   "attackRank" : "1",
@@ -7842,7 +7842,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220806",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9662590,
   "attackRank" : "2",
@@ -7912,7 +7912,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220806",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9664080,
   "attackRank" : "1",
@@ -7972,7 +7972,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220806",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9659380,
   "attackRank" : "1",
@@ -8002,7 +8002,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220806",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9657780,
   "attackRank" : "1",
@@ -8152,11 +8152,11 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220730",
   "defenseRank" : "3",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9662200,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9667000
 }, {
@@ -8342,7 +8342,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220730",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9656840,
   "attackRank" : "1",
@@ -8356,7 +8356,7 @@ guild_versus_history_list =
   "defenseGuildName" : "新興宗教ガミガミ教",
   "defensePoint" : 9655920,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/noche.png",
   "attackGuildName" : "noche",
   "attackPoint" : 9655970
 }, {
@@ -8476,7 +8476,7 @@ guild_versus_history_list =
   "defenseGuildName" : "†BlueMoon†",
   "defensePoint" : 9661170,
   "attackRank" : "2",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/gands.png",
   "attackGuildName" : "GandS",
   "attackPoint" : 9668330
 }, {
@@ -8582,7 +8582,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220723",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9660350,
   "attackRank" : "1",
@@ -8632,7 +8632,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220723",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9658440,
   "attackRank" : "1",
@@ -8662,7 +8662,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220723",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9653970,
   "attackRank" : "1",
@@ -8882,7 +8882,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220716",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9659620,
   "attackRank" : "1",
@@ -8956,7 +8956,7 @@ guild_versus_history_list =
   "defenseGuildName" : "紫龍会",
   "defensePoint" : 9654630,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/noche.png",
   "attackGuildName" : "noche",
   "attackPoint" : 9621710
 }, {
@@ -8976,13 +8976,13 @@ guild_versus_history_list =
   "defenseGuildName" : "パニックルームMk－Ⅱ",
   "defensePoint" : 0,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/orange_days.png",
   "attackGuildName" : "OrangeDays",
   "attackPoint" : 9660280
 }, {
   "eventDate" : "20220716",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 0,
   "attackRank" : "1",
@@ -9212,7 +9212,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220709",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
   "defenseGuildName" : "高原組",
   "defensePoint" : 9656440,
   "attackRank" : "1",
@@ -9242,7 +9242,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220709",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9654240,
   "attackRank" : "1",
@@ -9276,13 +9276,13 @@ guild_versus_history_list =
   "defenseGuildName" : "NBAライブ",
   "defensePoint" : 9610180,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/noche.png",
   "attackGuildName" : "noche",
   "attackPoint" : 9655950
 }, {
   "eventDate" : "20220709",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9548340,
   "attackRank" : "1",
@@ -9522,7 +9522,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220702",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/gands.png",
   "defenseGuildName" : "GandS",
   "defensePoint" : 9658600,
   "attackRank" : "1",
@@ -9542,7 +9542,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220702",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/orange_days.png",
   "defenseGuildName" : "OrangeDays",
   "defensePoint" : 9658190,
   "attackRank" : "1",
@@ -9552,7 +9552,7 @@ guild_versus_history_list =
 }, {
   "eventDate" : "20220702",
   "defenseRank" : "2",
-  "defenseGuildMarkImage" : null,
+  "defenseGuildMarkImage" : "../img/guild/noche.png",
   "defenseGuildName" : "noche",
   "defensePoint" : 9656840,
   "attackRank" : "1",
@@ -9586,7 +9586,7 @@ guild_versus_history_list =
   "defenseGuildName" : "新興宗教ガミガミ教",
   "defensePoint" : 9516220,
   "attackRank" : "1",
-  "attackGuildMarkImage" : null,
+  "attackGuildMarkImage" : "../img/guild/takaharagumi.png",
   "attackGuildName" : "高原組",
   "attackPoint" : 9667800
 }, {
