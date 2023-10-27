@@ -1,5 +1,305 @@
 guild_versus_history_list = 
 [ {
+  "eventDate" : "20231028",
+  "defenseRank" : "5",
+  "defenseGuildMarkImage" : "../img/guild/sweet_magic.png",
+  "defenseGuildName" : "～Sweet☆Magic～",
+  "defensePoint" : 0,
+  "attackRank" : "4",
+  "attackGuildMarkImage" : "../img/guild/blue_moon.png",
+  "attackGuildName" : "†BlueMoon†",
+  "attackPoint" : 9664960
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "4",
+  "defenseGuildMarkImage" : "../img/guild/takaharagumi.png",
+  "defenseGuildName" : "高原組",
+  "defensePoint" : 9660740,
+  "attackRank" : "3",
+  "attackGuildMarkImage" : "../img/guild/pumpkin_hearts.png",
+  "attackGuildName" : "パンプキン・ハーツ",
+  "attackPoint" : 9665130
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "4",
+  "defenseGuildMarkImage" : "../img/guild/party_people.png",
+  "defenseGuildName" : "♪PartyPeople♪",
+  "defensePoint" : 9658510,
+  "attackRank" : "3",
+  "attackGuildMarkImage" : "../img/guild/28kumi.png",
+  "attackGuildName" : "２８組",
+  "attackPoint" : 9671310
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "3",
+  "defenseGuildMarkImage" : "../img/guild/tenku_no_tokeitou.png",
+  "defenseGuildName" : "†天空の時計塔†",
+  "defensePoint" : 9663550,
+  "attackRank" : "2",
+  "attackGuildMarkImage" : "../img/guild/samanazu.png",
+  "attackGuildName" : "☆さまなーず☆",
+  "attackPoint" : 9665350
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "3",
+  "defenseGuildMarkImage" : "../img/guild/tabi_no_tochu.png",
+  "defenseGuildName" : "旅の途中",
+  "defensePoint" : 9662760,
+  "attackRank" : "2",
+  "attackGuildMarkImage" : "../img/guild/koutetsu_no_snoopy.png",
+  "attackGuildName" : "鋼鉄のＳＮＯＯＰＹ",
+  "attackPoint" : 9665700
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "3",
+  "defenseGuildMarkImage" : "../img/guild/ikkasaki.png",
+  "defenseGuildName" : "一華咲",
+  "defensePoint" : 9662600,
+  "attackRank" : "2",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "そんなバナナ！！",
+  "attackPoint" : 9667260
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "3",
+  "defenseGuildMarkImage" : "../img/guild/shiryukai.png",
+  "defenseGuildName" : "紫龍会",
+  "defensePoint" : 9660830,
+  "attackRank" : "2",
+  "attackGuildMarkImage" : "../img/guild/ichigo.png",
+  "attackGuildName" : "いちご",
+  "attackPoint" : 9668770
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "3",
+  "defenseGuildMarkImage" : null,
+  "defenseGuildName" : "☆カミサマの遊技場☆",
+  "defensePoint" : 9660740,
+  "attackRank" : "2",
+  "attackGuildMarkImage" : "../img/guild/gands.png",
+  "attackGuildName" : "GandS",
+  "attackPoint" : 9669080
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "3",
+  "defenseGuildMarkImage" : "../img/guild/ranbucho.png",
+  "defenseGuildName" : "乱舞蝶",
+  "defensePoint" : 9660560,
+  "attackRank" : "2",
+  "attackGuildMarkImage" : "../img/guild/shijinsouou.png",
+  "attackGuildName" : "Si：神相応",
+  "attackPoint" : 9669900
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "3",
+  "defenseGuildMarkImage" : "../img/guild/anshin_dekiru_ikoi_no_ba.png",
+  "defenseGuildName" : "☆安心できる憩いの場☆",
+  "defensePoint" : 9659420,
+  "attackRank" : "2",
+  "attackGuildMarkImage" : "../img/guild/legend_hearts.png",
+  "attackGuildName" : "Legend_Hearts",
+  "attackPoint" : 9671090
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/heiliger_ritter.png",
+  "defenseGuildName" : "HeiligerRitter",
+  "defensePoint" : 9664690,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "",
+  "attackPoint" : 0
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/hiyoko_sentai_renja.png",
+  "defenseGuildName" : "ひよこ戦隊赤レンジャー",
+  "defensePoint" : 9664320,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "",
+  "attackPoint" : 0
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/rondo_bell.png",
+  "defenseGuildName" : "ロンド＝ベル",
+  "defensePoint" : 9663970,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "",
+  "attackPoint" : 0
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : null,
+  "defenseGuildName" : "＇unmoral＇",
+  "defensePoint" : 9663720,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "",
+  "attackPoint" : 0
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/shinko_shukyo_gamigamikyo.png",
+  "defenseGuildName" : "新興宗教ガミガミ教",
+  "defensePoint" : 9663480,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "",
+  "attackPoint" : 0
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/hokkaido_guild_namara.png",
+  "defenseGuildName" : "北海道ギルド【なまら】",
+  "defensePoint" : 9663230,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "",
+  "attackPoint" : 0
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/raosukyowakoku.png",
+  "defenseGuildName" : "ラオス共和国",
+  "defensePoint" : 9661460,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "",
+  "attackPoint" : 0
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/rasupuchin.png",
+  "defenseGuildName" : "☆ラスプーチン☆",
+  "defensePoint" : 9660940,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "",
+  "attackPoint" : 0
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/eternal_freedom.png",
+  "defenseGuildName" : "エターナルフリーダム",
+  "defensePoint" : 9660910,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "　ああああん",
+  "attackPoint" : 1000
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/spirit_of_fire.png",
+  "defenseGuildName" : "Spirit　of　Fire",
+  "defensePoint" : 9660680,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "Heavy　Lance",
+  "attackPoint" : 431520
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/ayanaki_no_komoriuta.png",
+  "defenseGuildName" : "彩なき風の子守唄",
+  "defensePoint" : 9660530,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "我らがｵﾘｯｸｽﾊﾞﾌｧﾛｰｽﾞ",
+  "attackPoint" : 433440
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/nba_live.png",
+  "defenseGuildName" : "NBAライブ",
+  "defensePoint" : 9658440,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : "../img/guild/noche.png",
+  "attackGuildName" : "noche",
+  "attackPoint" : 9515430
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/piano_no_mori.png",
+  "defenseGuildName" : "ピアノの森",
+  "defensePoint" : 9657660,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : "../img/guild/panic_room_mk_2.png",
+  "attackGuildName" : "パニックルームMk－Ⅱ",
+  "attackPoint" : 9655170
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/ochakai.png",
+  "defenseGuildName" : "　お茶会",
+  "defensePoint" : 9656770,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "がんぼ民",
+  "attackPoint" : 9655790
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/furusato_ai.png",
+  "defenseGuildName" : "ふるさと愛",
+  "defensePoint" : 9655490,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : "../img/guild/black_angels.png",
+  "attackGuildName" : "†BlackAngels†",
+  "attackPoint" : 9658970
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/bluebox.png",
+  "defenseGuildName" : "【BlueBox】",
+  "defensePoint" : 9654390,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : "../img/guild/princess.png",
+  "attackGuildName" : "プリンセス",
+  "attackPoint" : 9661630
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/ginyu_tokusentai.png",
+  "defenseGuildName" : "ギニュー特戦隊",
+  "defensePoint" : 9653870,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : null,
+  "attackGuildName" : "ちぇりーぶろっさみゅ",
+  "attackPoint" : 9661720
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/nu.png",
+  "defenseGuildName" : "ぬ゛",
+  "defensePoint" : 9652590,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : "../img/guild/close_friends.png",
+  "attackGuildName" : "CloseFriends",
+  "attackPoint" : 9661930
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/yorozuya.png",
+  "defenseGuildName" : "よろずや♪",
+  "defensePoint" : 9651800,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : "../img/guild/usamifamiryi.png",
+  "attackGuildName" : "うさみふぁみりぃ",
+  "attackPoint" : 9662180
+}, {
+  "eventDate" : "20231028",
+  "defenseRank" : "2",
+  "defenseGuildMarkImage" : "../img/guild/ishindenshin.png",
+  "defenseGuildName" : "以心伝心",
+  "defensePoint" : 9613320,
+  "attackRank" : "1",
+  "attackGuildMarkImage" : "../img/guild/yozakurakai.png",
+  "attackGuildName" : "夜桜会",
+  "attackPoint" : 9668590
+}, {
   "eventDate" : "20231021",
   "defenseRank" : "5",
   "defenseGuildMarkImage" : "../img/guild/sweet_magic.png",
